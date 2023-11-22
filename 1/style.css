@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #F4F3F9;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 500px;
+    height: 800px;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 8px 10px 0px rgba(124, 116, 252, 0.25);
+    padding: 64px 40px;
+    /* padding-bottom:0 ; */
+}
+
+.container .top-side {
+    padding-bottom: 64px;
+    border-bottom: 1px solid rgba(124, 116, 252, 0.25);
+}
+
+
+.container h2 {
+    color: #434282;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.container p {
+    color: #434282;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.list-container ul {
+    list-style: none;
+    padding: 22px 0;
+    padding-left: 60px;
+    position: relative;
+}
+
+.list-container li span {
+    color: #434282;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.list-container li .plus {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.list-container li .minus {
+    position: absolute;
+    left: 25px;
+    top: 30px;
+}
+
+.list-container .open {
+    border-radius: 5px;
+    background: #F0F4FD;
+}
+
+.list-container .open .info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.list-container .open .info-container p {
+    color: #434282;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 21px;
+    padding-right: 18px;
+}
+
+.list-container .open .info-container button {
+    width: 113px;
+    height: 37px;
+    border: 1px solid transparent;
+    border-radius: 19px;
+    background: #7C74FC;
+    font-family: "Poppins", sans-serif;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
